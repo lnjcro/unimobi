@@ -11,7 +11,7 @@ export default {
       if (messagem) {
         return response.json({ 
           error: true,
-          message: "Oppss: sua mensagem já foi cadastrada, aguarde resposta do anunciante!" 
+          message: "Falha: Seu e-mail ja possuí uma mensagem enviada. Aguarde o contato do anunciante!" 
         });
       }
 
@@ -26,7 +26,7 @@ export default {
 
       return response.json({
         error: false,
-        message: "Sucesso: Mensagem cadastrada com sucesso!",
+        message: "Sucesso: Mensagem enviada com sucesso!",
         messagem
       });
 
