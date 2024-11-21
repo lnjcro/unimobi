@@ -4,13 +4,13 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "../pages/Home";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../components/Header/HeaderComponent";
+import Footer from "../components/Footer/FooterComponent";
 import Error from "../pages/Error";
 import Unimobi from "../pages/Unimobi";
 import Login from "../pages/Login";
 import Cadastro from "../pages/Cadastro";
-import PrivateRoute from "../components/PrivateRoute";
+import PrivateRoute from "../components/PrivateRoute/SecuredComponent";
 import Perfil from "../pages/Perfil";
 import React from "react";
 

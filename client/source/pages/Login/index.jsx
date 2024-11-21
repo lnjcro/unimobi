@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Input from "../../components/Input";
-import Button from "../../components/Button";
+import Input from "../../components/Input/InputComponent";
+import Button from "../../components/Button/ButtonComponent";
 import { Container, ContainerForm, Form, Label } from "./styles";
 import { AppAuth } from "../../context/AppAuth";
 

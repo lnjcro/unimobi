@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import Card from "../../components/Card";
-import Banner from "../../components/Banner";
+import Card from "../../components/Card/CardComponent";
+import Banner from "../../components/Banner/BannerComponent";
 import { Header, Wrapper } from "./styles";
 import { useState } from "react";
 import { useEffect } from "react";

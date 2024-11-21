@@ -2,10 +2,10 @@ import React, { Fragment } from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import Button from "../../components/Button";
-import Input from "../../components/Input";
-import TextArea from "../../components/TextArea";
-import TopBanner from "../../components/TopBanner";
+import Button from "../../components/Button/ButtonComponent";
+import Input from "../../components/Input/InputComponent";
+import TextArea from "../../components/TextArea/TextComponent";
+import TopBanner from "../../components/TopBanner/TopBannerComponent";
 import Api, { urlApi } from "../../services/Api";
 import {
   Container,
